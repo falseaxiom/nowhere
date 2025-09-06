@@ -1,0 +1,14 @@
+.singlePost {
+	height: 100%;
+	width: auto;
+	/* flex-wrap: wrap; */
+}
+#body {
+	margin-top: 1em;
+  height: 100%;
+	aspect-ratio: 9/15;
+  overflow: auto;         /* allows scrolling if content is too wide */
+  column-width: 300px;
+  column-gap: 2em;
+  column-fill: auto;      /* let columns balance naturally */
+}

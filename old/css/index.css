@@ -1,0 +1,63 @@
+/***** HOME PAGE *****/
+/*** General ***/
+#articlesContainer {
+    width: 100%;
+    margin-bottom: 48px;
+}
+#leftCol {
+    width: 27%;
+    padding-right: 24px;
+    margin-top: -24px;
+}
+#centerCol {
+    width: 46%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0 24px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#rightCol {
+    width: 27%;
+    padding-left: 24px;
+    margin-top: -24px;
+}
+.article {
+    padding: 24px 0;
+    border-bottom: 1px solid black;
+}
+.articlePic {
+    width: 100%;
+}
+.articleTitle {
+    font-family: "Radley", serif;
+    font-style: italic;
+    padding: 8px 0;
+}
+#mainArticle {
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+}
+#mainArticle .articleTitle {
+    font-size: 30pt;
+}
+.tinyArticle {
+    width: 45%;
+}
+.tinyArticle .articleTitle {
+    font-size: 16pt;
+}
+.tinyArticle .articleBlurb {
+    font-size: 10pt;
+}
+.sideArticle .articleTitle {
+    font-size: 20pt;
+}
+.sideArticle .articleBlurb {
+    font-size: 10pt;
+}
+
+@media screen and (max-width: 1200px) {
+    
+  }
