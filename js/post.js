@@ -36,7 +36,7 @@ function handleCSVResultPost(csvString) {
 }
 
 function displayPost(folder, file, posttitle, postbody) {
-  fetch("/"+folder+"/"+file)
+  fetch("./"+folder+"/"+file)
     .then((res) => res.text())
     .then((text) => {
       // get date of post
