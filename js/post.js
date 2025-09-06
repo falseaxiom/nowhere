@@ -1,6 +1,6 @@
 // populate post.html with single post based on id
 
-var csvUrl = '/postlist.csv';
+var csvUrl = './postlist.csv';
 
 function handleCSVResultPost(csvString) {
   // populate post.html based on post id

@@ -1,6 +1,6 @@
 // populate maincontainer with posts in index.html
 
-var csvUrl = '/postlist.csv';
+var csvUrl = './postlist.csv';
 
 var tagAbbrevs = {
   "wp": "wordpost",
@@ -81,7 +81,7 @@ function displayPost(folder, file, posttitle, postbody) {
 
       var title = text.split('\n').shift(); // first line
       posttitle.innerText = date + "..." + title;
-      posttitle.href = "/post.html?id=" + file.split(".")[0]; // link to post
+      posttitle.href = "./post.html?id=" + file.split(".")[0]; // link to post
 
       var body = text.substring(title.length+1); // tagline
       postbody.innerHTML = body;
