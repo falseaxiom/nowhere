@@ -9,12 +9,13 @@
 	aspect-ratio: 9/15;
   overflow: auto;         /* allows scrolling if content is too wide */
   column-width: 300px;
-  column-gap: 2em;
+  column-gap: 2rem;
   column-fill: auto;      /* let columns balance naturally */
 }
 
 @media only screen and (max-width: 1000px) {
   #body {
     column-width: 1000px;
+    /* font-size: 36px !important; */
   }
 }
