@@ -12,3 +12,9 @@
   column-gap: 2em;
   column-fill: auto;      /* let columns balance naturally */
 }
+
+@media only screen and (max-width: 1000px) {
+  #body {
+    column-width: 1000px;
+  }
+}
